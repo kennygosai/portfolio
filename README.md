@@ -70,7 +70,13 @@ git clone https://github.com/kennygosai/portfolio.git
 cd portfolio
 npm install
 ```
-5. Start the client
+3. To ensure contact page emailing works, create a env.local file in the root directory with keys from [EmailJS](https://www.emailjs.com/)
+```sh
+REACT_APP_TEMPLATEID = "your template id"
+REACT_APP_SERVICEID = "your service id"
+REACT_APP_USERID = "your user id"
+```
+4. Start the client
 ```sh
 npm start
 ```
