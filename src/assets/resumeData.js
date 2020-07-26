@@ -70,6 +70,14 @@ export const resumeData = {
         github: "https://github.com/kennygosai/weather_checker",
       },
       {
+        title: "Watch List",
+        category:
+          "Hosted with AWS and uses HTML, CSS, JavaScript, MySQL and a Node.js Express server to allow users to store movies and TV shows they would like to watch.",
+        image: "watchlist.png",
+        url: "http://watchlist-env.eba-3euhr9p4.us-east-2.elasticbeanstalk.com/",
+        github: "https://github.com/kennygosai/watchlist",
+      },
+      {
         title: "Portfolio",
         category: "Created using ReactJS, See the code of this website!",
         image: "portfolio.png",

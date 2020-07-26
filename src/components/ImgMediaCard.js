@@ -9,11 +9,21 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LanguageIcon from "@material-ui/icons/Language";
+import { Box } from "@material-ui/core";
 
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
+    minHeight: 398,
+    position: 'relative'
   },
+  cardActions: {
+    position: 'absolute',
+    bottom: 0
+  },
+  button: {
+
+  }
 });
 
 /**
@@ -60,7 +70,7 @@ function ImgMediaCard(props) {
           </CardContent>
         </CardActionArea>
       </a>
-      <CardActions>
+      <CardActions className={classes.cardActions}>
         {props.data.url !== undefined ? (
           <a href={props.data.url} target="_blank" rel="noopener noreferrer">
             <Button
