@@ -8,7 +8,7 @@ export const resumeData = {
   main: {
     name: "Kenny Gosai",
     occupation: "Software Developer",
-    description: "",
+    description: "Currently a Web Developer at Megram Consulting Services Ltd.",
     image: "profilepic.jpg",
     contactmessage:
       "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by using the form below.",
@@ -43,6 +43,13 @@ export const resumeData = {
       },
     ],
     work: [
+      {
+        company: "Megram Consulting Services Ltd.",
+        title: "Web Developer",
+        years: "Aug 2020 - Present",
+        description:
+          "Responsible for the architecture, design and development of high volume web service applications. Contracted Web Development projects in technologies such as HTML5, CSS, JavaScript, PHP, Drupal & WordPress. Managed company website back-end including plugins, tools, and database. Coordinated websites to be transformed into SEO-friendly and optimized websites.",
+      },
       {
         company: "Surge-ERP",
         title: "Graphic Designer ",
