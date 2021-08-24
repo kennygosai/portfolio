@@ -17,6 +17,7 @@ import React from "react";
  * )
  */
 function Footer(props) {
+  const date = new Date();
   const networks = props.data.social.map(function (network) {
     return (
       <li key={network.name}>
@@ -34,7 +35,7 @@ function Footer(props) {
           <ul className="social-links">{networks}</ul>
 
           <ul className="copyright">
-            <li>&copy; Copyright 2020 Kenny Gosai</li>
+            <li>&copy; Copyright {date.getFullYear()} Kenny Gosai</li>
           </ul>
         </div>
         <div id="go-top">
