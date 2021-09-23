@@ -78,7 +78,7 @@ function Resume(props) {
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <a
-          href="/files/Kenny_Gosai_Resume_082421.pdf"
+          href="/files/Kenny_Gosai_Resume_092321.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
